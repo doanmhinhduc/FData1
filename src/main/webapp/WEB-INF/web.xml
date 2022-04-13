@@ -5,12 +5,21 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>fdata</servlet-name>
-        <servlet-class>com.example.fdata.controller.fdataController</servlet-class>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.example.fdata.controller.Account.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>fdata</servlet-name>
-        <url-pattern>/fdata</url-pattern>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/account/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.example.fdata.controller.Account.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/account/logout</url-pattern>
     </servlet-mapping>
 
 </web-app>

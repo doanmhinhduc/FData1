@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FData:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FData</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FData-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="FData:war exploded" />
+    </root>
+  </artifact>
+</component>
